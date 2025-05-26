@@ -1,0 +1,102 @@
+/* styles.css - Violet theme */
+
+body {
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #f5f3ff;
+    color: #3a2e56;
+  }
+  
+  header {
+    background-color: #823cde;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  
+  .nav-left {
+    flex: 1; /* placeholder or logo area */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #d1b3ff;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #d1b3ff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e8d8ff;
+    color: #3a2e56;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+  }
+  
+  .gallery-item {
+    max-width: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(91, 44, 152, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #d1b3ff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #823cde;
+    color: white;
+  }
+  
